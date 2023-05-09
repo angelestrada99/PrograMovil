@@ -59,6 +59,7 @@ dependencies:
   flutter_login_facebook: ^1.8.0
   flutter_facebook_auth: ^5.0.8
   youtube_player_flutter: ^8.1.2
+  google_maps_flutter: ^2.2.6
 
 dev_dependencies:
   flutter_test:

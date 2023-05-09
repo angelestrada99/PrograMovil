@@ -135,6 +135,12 @@ class _DashboardScreenState extends State<DashboardScreen> {
               leading: const Icon(Icons.gif_box_sharp),
               trailing: const Icon(Icons.chevron_right),
             ),
+            ListTile(
+              onTap: () => Navigator.pushNamed(context, '/maps'),
+              title: const Text('MAPS'),
+              leading: const Icon(Icons.location_on),
+              trailing: const Icon(Icons.chevron_right),
+            ),
             DayNightSwitcher(
               isDarkModeEnabled: isDarkModeEnabled,
               onStateChanged: (isDarkModeEnabled) {

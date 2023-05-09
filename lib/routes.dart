@@ -6,6 +6,7 @@ import 'package:flutter_1/screens/list_favorites_cloud.dart';
 import 'package:flutter_1/screens/list_gifs.dart';
 import 'package:flutter_1/screens/list_popular_videos.dart';
 import 'package:flutter_1/screens/login_screen.dart';
+import 'package:flutter_1/screens/maps_screen.dart';
 import 'package:flutter_1/screens/modify_event_screen.dart';
 import 'package:flutter_1/screens/more_gifs.dart';
 import 'package:flutter_1/screens/preferencest_screen.dart';
@@ -28,5 +29,6 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/moreAboutGiph': (BuildContext context) => const MoreGifs(),
     '/favorites': (BuildContext context) => const ListFavoritesCloud(),
     '/best': (BuildContext context) => const BestMovies(),
+    '/maps': (BuildContext context) => const MapSample()
   };
 }
